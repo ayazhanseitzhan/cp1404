@@ -1,12 +1,9 @@
 """
 CP1404/CP5632 - Practical
-Fill in the TODOs to complete the task
+Password checker "skeleton" code to help you get started
 """
 
-is_finished = False
-while not is_finished:
-    try:
-        result = int(input("Enter a valid integer: "))
-    except:
-        print("Please enter a valid integer.")
-print("Valid result is:", result)
+MIN_LENGTH = 2
+MAX_LENGTH = 6
+SPECIAL_CHARS_REQUIRED = False
+SPECIAL_CHARACTERS = "_-=+`~,./'[]<>?{}|\\!@#$%^&*()"
