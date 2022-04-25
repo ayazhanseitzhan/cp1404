@@ -17,3 +17,14 @@ print("My {} would cost ${:,.2f}".format(name, cost))
 numbers = [1, 19, 123, 456, -25]
 for number in numbers:
     print("Number is {:>5}".format(number))
+
+# A version of the above loop using the enumerate function, useful when you want the index and value
+for i, number in enumerate(numbers):
+    print("Number {0} is {1:>5}".format(i + 1, number))
+
+''' My Work'''
+
+print("{} {} for about  ${:,.0f}!".format(year, name, cost))
+
+for i in range(0, 151, 50):
+    print("{:>3d}".format(i))
