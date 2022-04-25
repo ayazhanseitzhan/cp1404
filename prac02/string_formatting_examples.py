@@ -12,3 +12,8 @@ print("My {0} was first made in {1} (that's right, {1}!)".format(name, year))
 
 # Formatting currency (grouping with comma, 2 decimal places):
 print("My {} would cost ${:,.2f}".format(name, cost))
+
+# Aligning columns:
+numbers = [1, 19, 123, 456, -25]
+for number in numbers:
+    print("Number is {:>5}".format(number))
